@@ -1,17 +1,19 @@
 #!/usr/bin/env bash
 
 echo "System info:"
-echo "............"
+echo "-----------------------------------------------------"
 
-echo "User:"
+echo -n "User   : "
 whoami
-echo "............"
-echo "Host:"
+
+echo -n "Host   : "
 hostname
-echo "............"
-echo "Uptime:"
+
+echo -n "Uptime : "
 uptime -p
-echo "............"
-echo "System:"
+
+echo -n "System : "
 uname -rms
 
+echo "-----------------------------------------------------"
+echo ""
