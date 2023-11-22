@@ -11,3 +11,4 @@ echo "Status da execução do ultimo comando: $?"
 
 [[ $? -eq 0 ]] && echo "sucesso" || echo "erro" 
 exit 0
+
