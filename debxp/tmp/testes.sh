@@ -9,4 +9,3 @@ echo $string
 
 # array
 objetos=("caneta" "papel" "borracha")
-
